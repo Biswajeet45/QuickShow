@@ -270,14 +270,22 @@ const sendNewShowNotifications = inngest.createFunction(
             const userName = user.name;
 
             const subject = `🎬 New Show Added: ${movieTitle}`;
-            const body = `<div style="font-family: Arial, sans-serif; padding: 20px;">
-                    <h2>Hi ${userName},</h2>
-                    <p>We've just added a new show to our library:</p>
-                    <h3 style="color: #F84565;">"${movieTitle}"</h3>
-                    <p>Visit our website</p>
-                    <br/>
-                    <p>Thanks,<br/>QuickShow Team</p>
-                </div>`;
+            const body = `<div style="font-family: Arial, sans-serif; padding: 20px; line-height: 1.6;">
+    <h2>Hi ${userName},</h2>
+    <p>We've just added a new show to our library:</p>
+    <h3 style="color: #F84565;">"${movieTitle}"</h3>
+    <p style="margin: 20px 0;">
+        <a href="https://quick-show-ak73.vercel.app/" 
+           style="display: inline-block; padding: 12px 24px; background: #F84565; color: #fff; 
+                  text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px;
+                  box-shadow: 0 4px 8px rgba(0,0,0,0.15);">
+            ❤️ Visit Our Website
+        </a>
+    </p>
+    <br/>
+    <p>Thanks,<br/>QuickShow Team</p>
+</div>`;
+
 
                 await sendEmail({
                     to: userEmail,
