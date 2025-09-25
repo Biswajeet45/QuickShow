@@ -1,12 +1,42 @@
-# React + Vite
+## 🎬 QuickShow – Movie Ticket Booking System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 A full-stack MERN application for seamless movie ticket booking with secure payments, real-time seat selection, and an intuitive admin dashboard.
 
-Currently, two official plugins are available:
+## 🔗 Live Project: https://quick-show-ak73.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ ## ✨ Features
+##  👤 User Side
 
-## Expanding the ESLint configuration
+## 🔑 Authentication with Clerk – Secure sign-up, login, and multi-session account switching.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎥 Explore Movies – Browse currently available movies with showtimes.
+
+## 🪑 Seat Selection – Pick your favorite seats in real time.
+
+## 💳 Stripe Payments – Hassle-free & secure ticket booking payments.
+
+## 📩 Email Notifications – Get reminders and booking confirmations automatically.
+
+## 🛠️ Admin Side
+
+## 🎬 Movie Management – Add, update, or remove movies.
+
+## 📊 Dashboard Insights – Track bookings & ticket availability.
+
+## 🪑 Seat Reservation Control – Automatic seat reservation release for unpaid bookings.
+
+## ⚙️ Tech Stack
+
+Frontend: React, Tailwind CSS
+
+Backend: Node.js, Express.js
+
+Database: MongoDB
+
+Authentication: Clerk
+
+Payments: Stripe
+
+Background Jobs: Inngest
+
+Deployment: (e.g., Vercel
