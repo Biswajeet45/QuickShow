@@ -40,6 +40,9 @@ const Footer = () => {
               <a href="https://www.instagram.com/_mr_biswajeet/" target="_blank" rel="noopener noreferrer">
                 <FaInstagram size={22} className="text-pink-500 hover:scale-110 transition-transform" />
               </a>
+              <a href="https://x.com/Biswa42" target="_blank" rel="noopener noreferrer">
+                <FaXTwitter size={22} className="text-sky-500 hover:scale-110 transition-transform" />
+              </a>
             </div>
           </div>
         </div>
